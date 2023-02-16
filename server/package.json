@@ -1,22 +1,15 @@
 {
-  "name": "mern_app_rajikshank",
+  "name": "spike_share",
   "version": "1.0.0",
-  "description": "chat application developed using mern stack uses socket.io and material ui and antd design ",
-  "main": "index.js",
+  "description": "Mern_stack  messaging  application",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Rajikshank/Spike_Share.git"
-  },
-  "keywords": [
-    "Spike_share"
-  ],
   "author": "Rajikshan_k",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Rajikshank/Spike_Share/issues"
-  },
-  "homepage": "https://github.com/Rajikshank/Spike_Share#readme"
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
